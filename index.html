@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CenchBr - Loja de Roupas</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <header class="topo-site">
+    <div class="barra-superior">
+      <span>Frete grátis para todo Brasil</span>
+    </div>
+    <div class="logo-container">
+      <img src="imgs/logo-cenchbr.png" alt="Logo CenchBr" class="logo" />
+    </div>
+    <nav class="menu-topo">
+      <button class="btn-menu" onclick="toggleMenu()">☰</button>
+      <a href="carrinho.html" class="carrinho">🛒</a>
+    </nav>
+  </header>
+
+  <main class="produtos">
+    <h1>SYNA</h1>
+    <p>77 produtos</p>
+    <div class="grid-produtos">
+      <div class="produto">
+        <span class="desconto">- 15%</span>
+        <img src="imgs/logo-cenchbr.png" alt="Produto 1" />
+        <h2>Conjunto Shorts Synaworld Preto/Cinza</h2>
+        <p class="preco">R$ 699,00 <span class="preco-antigo">R$ 819,00</span></p>
+        <p class="parcelamento">Até 12x de R$ 70,84</p>
+        <button onclick="adicionarAoCarrinho()">Comprar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>
